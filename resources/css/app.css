@@ -1,0 +1,68 @@
+
+/* Сквозные стили*/
+.button {
+    border: 1px solid #000;
+    display: flex;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #cccaca;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.text-danger {
+    color: red;
+}
+
+/**/
+.row {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Таблица*/
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 12px;
+}
+
+.table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr td:not(:last-child){
+    border-right: 1px solid #ddd;
+}
+
+.table tr:first-child, .table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Форма */
+
+form.form {
+    width: 500px;
+}
+
+form.form input, form.form textarea {
+    width: 100%;
+}
+form.form input[type=submit] {
+    width: fit-content;
+}
